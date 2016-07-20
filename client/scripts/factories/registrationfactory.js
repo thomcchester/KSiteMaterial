@@ -1,4 +1,4 @@
-chickAppRegistration.factory('RegisterFactory', ['$http', function($http){
+MakeUppRegistration.factory('RegisterFactory', ['$http', function($http){
 
   var data = {};
 

@@ -1,4 +1,4 @@
-chickAppAdmin.factory("AdminService", ["$http", function($http){
+MakeUppAdmin.factory("AdminService", ["$http", function($http){
     var admin = {};
 
     var alterDefaults = function(object){

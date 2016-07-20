@@ -1,12 +1,12 @@
-var chickApp = angular.module("chickApp", ['ngMaterial', 'ngMessages', 'ngRoute', 'googlechart']);
+var MakeUpp = angular.module("MakeUpp", ['ngMaterial', 'ngMessages', 'ngRoute', 'googlechart']);
 
-chickApp.config(["$routeProvider", "$locationProvider", function($routeProvider, $locationProvider){
+MakeUpp.config(["$routeProvider", "$locationProvider", function($routeProvider, $locationProvider){
 
 }]);
 
-var chickAppAdmin = angular.module("chickAppAdmin", ['ngMaterial', 'ngMessages', 'ngRoute', 'md.data.table']);
+var MakeUppAdmin = angular.module("MakeUppAdmin", ['ngMaterial', 'ngMessages', 'ngRoute', 'md.data.table']);
 
-chickAppAdmin.config(["$routeProvider", "$locationProvider", function($routeProvider, $locationProvider){
+MakeUppAdmin.config(["$routeProvider", "$locationProvider", function($routeProvider, $locationProvider){
     $routeProvider.
         when("/admin", {
             templateUrl: "/views/admin.html",
@@ -25,14 +25,14 @@ chickAppAdmin.config(["$routeProvider", "$locationProvider", function($routeProv
         });
 }]);
 
-var chickAppRegistration = angular.module("chickAppRegistration", ['ngMaterial', 'ngRoute']);
+var MakeUppRegistration = angular.module("MakeUppRegistration", ['ngMaterial', 'ngRoute']);
 
-chickAppRegistration.config(["$routeProvider", "$locationProvider", function($routeProvider, $locationProvider){
+MakeUppRegistration.config(["$routeProvider", "$locationProvider", function($routeProvider, $locationProvider){
 
 }]);
 
-var chickAppLogin = angular.module("chickAppLogin", ['ngMaterial', 'ngRoute']);
+var MakeUppLogin = angular.module("MakeUppLogin", ['ngMaterial', 'ngRoute']);
 
-chickAppLogin.config(["$routeProvider", "$locationProvider", function($routeProvider, $locationProvider){
+MakeUppLogin.config(["$routeProvider", "$locationProvider", function($routeProvider, $locationProvider){
 
 }]);
