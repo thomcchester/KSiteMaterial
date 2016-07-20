@@ -2,31 +2,9 @@ MakeUpp.controller('InputController',  ['$scope', '$log', '$http', '$window', '$
     //Independent Variables
     var clientService = ClientService;
 
-
-    // $scope.showAlert = function(ev) {
-    //     $mdDialog.show(
-    //       $mdDialog.alert()
-    //         .parent(angular.element(document.querySelector('#all')))
-    //         // .openFrom(angular.element(document.querySelector('#zip-code')))
-    //         // .closeTo(angular.element(document.querySelector('#zip-code')))
-    //         .clickOutsideToClose(true)
-    //         .title("Let's get started!")
-    //         .textContent('You can specify some description text in here.')
-    //         .ariaLabel('Alert Dialog Demo')
-    //         .ok('Got it!')
-    //         .targetEvent(ev)
-    //     );
-    // };
-    //
-    // $scope.showAlert();
-
     $scope.toggleMenu = function() {
         $mdSidenav('left').toggle();
     };
-
-    // $scope.submitEmail(contactPackage);
-    // $scope.submit.email = "";
-    // $scope.fade = "";
 
 
 $scope.inputData = {};
