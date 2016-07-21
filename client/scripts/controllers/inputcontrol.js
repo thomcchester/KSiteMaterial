@@ -7,6 +7,8 @@ MakeUpp.controller('InputController',  ['$scope', '$log', '$http', '$window', '$
     };
 
 
+
+
 $scope.inputData = {};
 
 $scope.minMax = {};

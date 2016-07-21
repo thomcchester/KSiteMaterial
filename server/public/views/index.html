@@ -21,10 +21,12 @@
     <link rel="stylesheet" href="../vendors/angular-material/angular-material.min.css">
     <link rel="stylesheet" href="../styles/style.css">
 </head>
+
+
 <body ng-controller="InputController" ng-cloak id="all">
 
     <header>
-        <md-toolbar style="height:10vh;">
+        <md-toolbar class ="toppers" style="height:10vh;">
             <div layout="row" layout-align="center">
                 <h1>Make Up By Kryssa</h1>
             </div>
@@ -40,7 +42,7 @@
                 <div layout="column" layout-align="center center">
 
 
-                    <div layout="row" layout-padding layout-align="center center" class="email-box">
+                    <!-- <div layout="row" layout-padding layout-align="center center" class="email-box">
                         <div flex="33">
                             <md-button class="md-raised md-primary" ng-click="submitEmail()">Contact Me</button>
                         </div>
@@ -50,7 +52,7 @@
                                 <input ng-model="submit.email">
                             </md-input-container>
                         </div>
-                    </div>
+                    </div> -->
                     <div id="admin-link">
                             <a href = "/views/login.html">Admin Login</a>
                     </div>
