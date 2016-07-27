@@ -18,7 +18,7 @@ $scope.getDefaults = function() {
       defaultVariables = response.data[0];
       $scope.minMax = defaultVariables;
 
-      $scope.inputData.monthlyRentPersonal= defaultVariables.monthlyRentPersonalDef;
+      $scope.inputData.TopHeaderText= defaultVariables.TopHeaderText;
       $scope.inputData.monthlyRentTenant= defaultVariables.monthlyRentTenantDef;
       $scope.inputData.targetPrice= defaultVariables.targetPriceDef;
       $scope.inputData.downPaymentPercentage= defaultVariables.downPaymentPercentageDef;

@@ -19,7 +19,7 @@ router.route('/')
             monthlyRentTenantDef:req.body.monthlyRentTenantDef,
             monthlyRentTenantMin:req.body.monthlyRentTenantMin,
             monthlyRentTenantMax:req.body.monthlyRentTenantMax,
-            monthlyRentPersonalDef:req.body.monthlyRentPersonalDef,
+            TopHeaderText:req.body.TopHeaderText,
             monthlyRentPersonalMin:req.body.monthlyRentPersonalMin,
             monthlyRentPersonalMax:req.body.monthlyRentPersonalMax,
             targetPriceDef:req.body.targetPriceDef,
@@ -101,7 +101,7 @@ router.route('/')
             defaults.monthlyRentTenantDef = req.body.monthlyRentTenantDef;
             defaults.monthlyRentTenantMin = req.body.monthlyRentTenantMin;
             defaults.monthlyRentTenantMax = req.body.monthlyRentTenantMax;
-            defaults.monthlyRentPersonalDef = req.body.monthlyRentPersonalDef;
+            defaults.TopHeaderText = req.body.TopHeaderText;
             defaults.monthlyRentPersonalMin = req.body.monthlyRentPersonalMin;
             defaults.monthlyRentPersonalMax = req.body.monthlyRentPersonalMax;
             defaults.targetPriceDef = req.body.targetPriceDef;

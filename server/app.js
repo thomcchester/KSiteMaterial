@@ -24,7 +24,7 @@ var register = require('./routes/register.js');
 // DATABASE VARS
 var mongoURI =    process.env.MONGODB_URI ||
    process.env.MONGOHQ_URL ||
-   "mongodb://localhost/duplexdb";
+   "mongodb://localhost/ksite";
 var mongoDB = mongoose.connect(mongoURI).connection;
 var defaultsExist = null;
 

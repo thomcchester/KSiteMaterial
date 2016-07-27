@@ -26,7 +26,7 @@ MakeUpp.factory("ClientService", ["$http", function($http){
         monthlyRentTenantDef:1100,
         monthlyRentTenantMin:100,
         monthlyRentTenantMax:10000,
-        monthlyRentPersonalDef:1200,
+        TopHeaderText:"I am a Kryssa and stuff",
         monthlyRentPersonalMin:200,
         monthlyRentPersonalMax:10000,
         targetPriceDef:266000,

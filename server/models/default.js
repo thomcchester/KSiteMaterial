@@ -8,7 +8,7 @@ var Default_Values = new Schema({
       monthlyRentTenantDef: {type: Number},
       monthlyRentTenantMin: {type: Number},
       monthlyRentTenantMax: {type: Number},
-      monthlyRentPersonalDef: {type: Number},
+      TopHeaderText: {type: String},
       monthlyRentPersonalMin: {type: Number},
       monthlyRentPersonalMax: {type: Number},
       targetPriceDef: {type: Number},

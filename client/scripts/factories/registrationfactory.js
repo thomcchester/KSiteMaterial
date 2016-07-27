@@ -7,7 +7,7 @@ MakeUppRegistration.factory('RegisterFactory', ['$http', function($http){
     registerObject.username = username;
     registerObject.password = password;
     $http.post('/reg', registerObject).success(function(response){
-      console.log("We Dun Did It");
+      console.log("here it is");
     });
   }
 
