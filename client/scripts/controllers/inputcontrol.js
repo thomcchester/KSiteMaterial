@@ -19,30 +19,7 @@ $scope.getDefaults = function() {
       $scope.minMax = defaultVariables;
 
       $scope.inputData.TopHeaderText= defaultVariables.TopHeaderText;
-      $scope.inputData.monthlyRentTenant= defaultVariables.monthlyRentTenantDef;
-      $scope.inputData.targetPrice= defaultVariables.targetPriceDef;
-      $scope.inputData.downPaymentPercentage= defaultVariables.downPaymentPercentageDef;
-      $scope.inputData.mortgageRate= defaultVariables.mortgageRateDef;
-      $scope.inputData.yearsAmmoritized= defaultVariables.yearsAmmoritizedDef;
-      $scope.inputData.income= defaultVariables.incomeDef;
-      $scope.inputData.mortgageYears= defaultVariables.mortgageYearsDef;
-      $scope.inputData.vacancy= defaultVariables.vacancyDef;
-      $scope.inputData.propertyTax= defaultVariables.propertyTaxDef;
-      $scope.inputData.assocDues= defaultVariables.assocDuesDef;
-      $scope.inputData.management= defaultVariables.managementDef;
-      $scope.inputData.misc= defaultVariables.miscDef;
-      $scope.inputData.insuranceAnnual= defaultVariables.insuranceAnnualDef;
-      $scope.inputData.utils= defaultVariables.utilsDef;
-      $scope.inputData.legalAccounting= defaultVariables.legalAccountingDef;
-      $scope.inputData.taxBracket= defaultVariables.taxBracketDef;
-      $scope.inputData.repairValue= defaultVariables.repairValueDef;
-      $scope.inputData.years= defaultVariables.yearsDef;
-      $scope.inputData.maritalStatus = false;
-      $scope.inputData.zipCode = defaultVariables.zipCode;
-      $scope.inputData.appreciationRate =defaultVariables.appreciationRateDef;
-      $scope.inputData.appreciationRateHome =defaultVariables.appreciationRateHomeDef;
-      $scope.inputData.renterInsurance = defaultVariables.renterInsuranceDef;
-      $scope.inputData.duplexBuy = defaultVariables.duplexBuyDef;
+      
 
   });
 };
